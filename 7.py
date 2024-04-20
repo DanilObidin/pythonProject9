@@ -1,5 +1,7 @@
-for i in range(1, 9+1):
-    for j in range(0, 9+1):
-        c = (i*10+j) * (i*10+j)
-        if c%1000 == i*100+j and c < 1000:
-            print(c)
+for a in range(1, 9+1):
+    for a in range(0, 9+1):
+        ab = (a*10+b)
+        cab = (a*10+b)*(a*10+b)
+        if cab > 99 and cab < 1000 and cab%100 == ab:
+            print(cab)
+        
